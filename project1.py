@@ -333,7 +333,7 @@ def validate_clock(filename):
     return check_alignment(h_a,m_a)
 
 def validate_batch(path, tolerance):
-    bad_err=[] # Record errors that need to be repair
+    bad_err=[] # Record errors that need to be repaired
     bad_id=[] # Record the ID of the repair
     good_nums=0 # Good clock 
     nums=0 # The total number 
